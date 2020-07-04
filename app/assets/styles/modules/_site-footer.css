@@ -5,13 +5,13 @@
   text-align: center;
 
   &__text {
-    margin-right: 2rem;
     display: block;
     margin-bottom: 1.4rem;
     font-weight: 300;
 
     @mixin atMedium {
       display: inline;
+      margin-right: 2rem;
     }
   }
 }
